@@ -5,11 +5,6 @@ yarn-error.log
 package-lock.json
 pnpm-lock.yaml
 
-# Cypress
-cypress/downloads/
-cypress/videos/
-cypress/screenshots/
-
 # Environment files
 .env
 
