@@ -11,3 +11,10 @@ Contexto: teste de busca no gov.br
     Quando o usuário digita INSS na barra de busca
     E o usuário confirma a busca
     Então o usuário deve ver resultados relacionados ao INSS
+
+    Cenário: Usuário acessa o Instagram pelo rodapé
+    Dado que o usuário acessa o site gov.br
+    Quando o usuário clica no link do Instagram no rodapé
+    Então deve ser redirecionado ao domínio do Instagram
+
+    
