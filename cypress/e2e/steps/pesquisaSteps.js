@@ -5,7 +5,7 @@ import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 Given('que o usuário está na página do gov.br', () => { 
     cy.visit('https://www.gov.br/pt-br')
     cy.get('#barra-govbr').shadow().find('div.overlay-wrapper').click()
-    cy.wait(5000);
+    cy.wait(3000);
 });
 
 When('o usuário pesquisa o termo {string}', (searchTerm) => {
